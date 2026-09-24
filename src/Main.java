@@ -1,5 +1,13 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        Scanner in = new Scanner(System.in);
+
+        double a = in.nextDouble();
+        double b = in.nextDouble();
+
+        System.out.println(Math.sqrt(a*a + b*b));
+
     }
 }
