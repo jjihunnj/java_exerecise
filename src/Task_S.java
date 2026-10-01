@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Task_S {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int h = scanner.nextInt();
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+
+        int days = (h - a + a - b - 1) / (a - b) + 1;
+
+        System.out.println(days);
+    }
+}
